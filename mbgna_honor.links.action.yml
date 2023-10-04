@@ -1,0 +1,11 @@
+honor.type_add:
+  title: 'Add honor type'
+  route_name: entity.honor_type.add_form
+  appears_on:
+    - entity.honor_type.collection
+
+honor.add_page:
+  title: 'Add honor'
+  route_name: entity.honor.add_page
+  appears_on:
+    - entity.honor.collection

@@ -1,0 +1,5 @@
+name: MBGNA Honor
+type: module
+description: Provides honor entities for the site.
+package: MBGNA
+core_version_requirement: ^9 || ^10

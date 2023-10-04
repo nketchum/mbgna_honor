@@ -1,0 +1,14 @@
+administer honor types:
+  title: 'Administer honor types'
+  description: 'Maintain the types of honor entity.'
+  restrict access: true
+# access honor overview:
+#   title: Access the Honor overview page
+delete honor:
+  title: Delete honor
+create honor:
+  title: Create honor
+view honor:
+  title: View honor
+edit honor:
+  title: Edit honor

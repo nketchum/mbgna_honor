@@ -1,0 +1,26 @@
+entity.honor.view:
+  title: 'View'
+  route_name: entity.honor.canonical
+  base_route: entity.honor.canonical
+entity.honor.edit_form:
+  title: 'Edit'
+  route_name: entity.honor.edit_form
+  base_route: entity.honor.canonical
+entity.honor.delete_form:
+  title: 'Delete'
+  route_name: entity.honor.delete_form
+  base_route: entity.honor.canonical
+  weight: 10
+entity.honor.collection:
+  title: 'Honors'
+  route_name: entity.honor.collection
+  base_route: system.admin_content
+  weight: 10
+entity.honor_type.edit_form:
+  title: 'Edit'
+  route_name: entity.honor_type.edit_form
+  base_route: entity.honor_type.edit_form
+entity.honor_type.collection:
+  title: 'List'
+  route_name: entity.honor_type.collection
+  base_route: entity.honor_type.collection

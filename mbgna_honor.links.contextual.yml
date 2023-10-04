@@ -1,0 +1,10 @@
+entity.honor.edit_form:
+  route_name: entity.honor.edit_form
+  group: honor
+  title: Edit
+
+entity.honor.delete_form:
+  route_name: entity.honor.delete_form
+  group: honor
+  title: Delete
+  weight: 10
