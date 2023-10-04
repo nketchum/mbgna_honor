@@ -4,9 +4,9 @@ entity.honor_type.collection:
   parent: system.admin_structure
   route_name: entity.honor_type.collection
 
-# entity.honor.collection:
-#   title: 'Resources'
-#   route_name: view.honor.page_1
-#   description: 'Browse honor listings'
-#   parent: system.admin_content
+entity.honor.collection:
+  title: 'Honors'
+  route_name: view.honor.page_1
+  description: 'Browse honor listings'
+  parent: system.admin_content
   

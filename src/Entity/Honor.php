@@ -48,6 +48,7 @@ use Drupal\mbgna_honor\HonorInterface;
  *     "uuid" = "uuid",
  *   },
  *   revision_metadata_keys = {
+ *     "revision_user" = "revision_uid",
  *     "revision_created" = "revision_timestamp",
  *     "revision_log_message" = "revision_log",
  *   },
@@ -58,6 +59,10 @@ use Drupal\mbgna_honor\HonorInterface;
  *     "canonical" = "/honor/{honor}",
  *     "edit-form" = "/honor/{honor}/edit",
  *     "delete-form" = "/honor/{honor}/delete",
+ *     "version-history" = "/resource/{resource}/revisions",
+ *     "revision" = "/resource/{resource}/revisions/{resource_revision}/view",
+ *     "revision_revert" = "/resource/{resource}/revisions/{resource_revision}/revert",
+ *     "revision_delete" = "/resource/{resource}/revisions/{resource_revision}/delete",
  *   },
  *   bundle_entity_type = "honor_type",
  *   field_ui_base_route = "entity.honor_type.edit_form",
