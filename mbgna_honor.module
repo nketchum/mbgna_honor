@@ -30,9 +30,30 @@ function mbgna_honor_theme() {
  *   - attributes: HTML attributes for the containing element.
  */
 function template_preprocess_honor(array &$variables) {
+  $honor = $variables['elements']['#honor'];
+  if ($honor) {
+    $variables['url'] = $honor->toUrl('canonical')->toString();
+    $variables['bundle'] = $honor->bundle();
+    $variables['status'] = $honor->status->getString();
+  }
+
   $variables['view_mode'] = $variables['elements']['#view_mode'];
   foreach (Element::children($variables['elements']) as $key) {
     $variables['content'][$key] = $variables['elements'][$key];
   }
 }
 
+/**
+ * Implements hook_theme_suggestions_HOOK().
+ */
+function mbgna_honor_theme_suggestions_honor(array $variables) {
+  $suggestions = [];
+  $honor = $variables['elements']['#honor'];
+  $sanitized_view_mode = strtr($variables['elements']['#view_mode'], '.', '_');
+  $suggestions[] = 'honor__' . $sanitized_view_mode;
+  $suggestions[] = 'honor__' . $honor->bundle();
+  $suggestions[] = 'honor__' . $honor->bundle() . '__' . $sanitized_view_mode;
+  $suggestions[] = 'honor__' . $honor->id();
+  $suggestions[] = 'honor__' . $honor->id() . '__' . $sanitized_view_mode;
+  return $suggestions;
+}
