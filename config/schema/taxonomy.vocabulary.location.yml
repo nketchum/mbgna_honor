@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: Location
-vid: location
-description: 'Major MBGNA locations and sites.'
-weight: 0

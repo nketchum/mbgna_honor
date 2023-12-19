@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-id: honor.listing_minimal_
-label: 'Listing (minimal)'
-targetEntityType: honor
-cache: true
