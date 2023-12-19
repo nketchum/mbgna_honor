@@ -2,8 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.honor.field_latitude
-    - mbgna_honor.honor_type.tribute
+    - field.storage.honor.field_latitude.honor_type.tribute
 id: honor.tribute.field_latitude
 field_name: field_latitude
 entity_type: honor

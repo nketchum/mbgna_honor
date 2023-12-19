@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - mbgna_honor
 id: honor.listing_minimal_
 label: 'Listing (minimal)'
 targetEntityType: honor

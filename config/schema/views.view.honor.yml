@@ -13,7 +13,6 @@ dependencies:
   module:
     - better_exposed_filters
     - manage_display
-    - mbgna_honor
     - taxonomy
     - user
 id: honor

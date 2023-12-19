@@ -13,8 +13,7 @@ dependencies:
     - field.field.honor.tribute.field_realization_year
     - field.field.honor.tribute.field_secondary_image
     - field.field.honor.tribute.field_title
-    - field.field.honor.tribute.field_type
-    - mbgna_honor.honor_type.tribute
+    - field.field.honor.tribute.field_type.honor_type.tribute
   module:
     - hide_revision_field
     - media_library
