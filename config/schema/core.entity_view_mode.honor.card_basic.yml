@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - mbgna_honor
+id: honor.card_basic
+label: 'Card (basic)'
+targetEntityType: honor
+cache: true

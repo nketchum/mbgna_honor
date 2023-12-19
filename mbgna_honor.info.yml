@@ -3,3 +3,18 @@ type: module
 description: Provides honor entities for the site.
 package: MBGNA
 core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:allowed_formats
+  - drupal:better_exposed_filters
+  - drupal:field_display_label
+  - drupal:field_formatter_class
+  - drupal:field_permissions
+  - drupal:field_permissions
+  - drupal:hide_revision_field
+  - drupal:manage_display
+  - drupal:media
+  - drupal:media_library
+  - drupal:options
+  - drupal:scheduler
+  - drupal:taxonomy
+  - drupal:text
